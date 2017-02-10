@@ -1,7 +1,46 @@
+/*
+
+Padding and border added to at least one element
+Margin added to at least one element
+At least one centered element (a footer message can be nice for this)
+A background image on at least one element
+A different font on at least one element
+A few elements styled using a class
+A different color for visited links
+An element styled with an ID
+
+*/
+
+
+
 body {
 	background: DodgerBlue;
 	font: normal 12px Verdana, Arial, sans-serif;
+}
 
+h1, h3 {
+	font-family: copperplate;
 
 }
 
+.tableho {
+	font-family: Tahoma;
+	text-transform: lowercase;
+	font-size: 1.2em;
+	background: #DAA520;
+	margin: 35px 35px 35px 35px;
+
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: darkgrey;
+}
+
+
+footer {
+	text-align: center;
+}
