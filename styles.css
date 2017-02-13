@@ -1,34 +1,59 @@
 /*
 
-Padding and border added to at least one element
-Margin added to at least one element
-At least one centered element (a footer message can be nice for this)
-A background image on at least one element
-A different font on at least one element
-A few elements styled using a class
-A different color for visited links
-An element styled with an ID
+$ Padding and border added to at least one element
+$ Margin added to at least one element
+$ t least one centered element (a footer message can be nice for this)
+$ A background image on at least one element
+$ A different font on at least one element
+$ A few elements styled using a class
+$ A different color for visited links
+$ An element styled with an ID
 
 */
 
 
 
 body {
-	background: DodgerBlue;
-	font: normal 12px Verdana, Arial, sans-serif;
+	background-image: url("background2.jpg");
+	font: normal 1em Verdana, Arial, sans-serif;
 }
 
-h1, h3 {
-	font-family: copperplate;
+h1, h2, h3 {
+	font-family: arial;
 
+}
+
+nav {
+
+	background-color: #FAFAD2;
+}
+
+p, li, a {
+
+	font-size: .9em;
 }
 
 .tableho {
 	font-family: Tahoma;
 	text-transform: lowercase;
-	font-size: 1.2em;
-	background: #DAA520;
+	font-size: .9em;
+	background: #6495ED;
 	margin: 35px 35px 35px 35px;
+	border: 2px solid grey;
+}
+
+th {
+	border-bottom: 1px solid grey;
+}
+
+td {
+	padding: 5px 5px 5px 5px;
+
+}
+
+#list {
+	color: #FAFAD2;
+	background-color: #6495ED;
 
 }
 
@@ -44,3 +69,36 @@ a:visited {
 footer {
 	text-align: center;
 }
+
+
+
+
+
+
+
+/* Media Queries */
+
+ @media screen and (max-width: 480px) {
+	 	p, li, a {
+
+		font-size: 0.8em;
+		}
+
+		h1, h2, h3 {
+		font-size: 1em;
+
+}
+
+		body {
+	
+		font: normal .8em Verdana, Arial, sans-serif;
+		}
+
+		.tableho {
+			font-size: .8em;
+
+		}
+}
+
+
+
