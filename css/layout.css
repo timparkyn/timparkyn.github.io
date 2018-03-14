@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/kauai.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -409,6 +409,40 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
+
+.workrow{
+  display: flex;
+  background-color: white;
+  clear: left;
+  margin: 20px;
+  margin-bottom: 40px;
+
+
+}
+
+.pic{
+  display: inline;
+  clear: left;
+  margin: 15px;
+}
+
+.description{
+  margin: 20px;
+  width: 400px;
+}
+
+a.gitty{
+  border: 1px solid #ebeeee;
+  padding: 10px;
+  color: #838c95;
+  letter-spacing: 0.25em;
+
+}
+
+a:hover.gitty{
+  transition: background-color 0.5s ease;
+  background-color: #EBEEEE;
+}
 
 #portfolio {
    background: #ebeeee;
